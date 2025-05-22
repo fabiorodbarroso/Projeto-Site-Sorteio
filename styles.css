@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: linear-gradient(105deg, #1a1a1a, #495269, #000000);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 156px;
+  margin-bottom: 126px;
+  animation: pulsar-img 5.5s infinite;
+}
+
+h3 {
+  color: #fff;
+  font-size: 32px;
+  font-style: normal;
+  line-height: normal;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+}
+
+div {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.input-min,
+.input-max {
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.25);
+  display: inline-block;
+  width: 342px;
+  height: 74px;
+  padding: 23px 233px 30px 16px;
+  align-items: center;
+  font-size: 40px;
+  margin-left: 62px;
+  padding-right: 6px;
+  margin-top: 29px;
+  margin-bottom: 79px;
+  color: #fff;
+  font-family: "Lobster", sans-serif;
+}
+
+button {
+  display: flex;
+  width: 342px;
+  height: 72px;
+  padding: 0px 76px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #aec346;
+  box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+  font-size: 36px;
+  font-family: "Lobster", sans-serif;
+  line-height: 2.5px;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 187px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  animation: pulsar 2.2s infinite;
+  border: none;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(0, 255, 115, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(231, 76, 60, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
+  }
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+@keyframes pulsar-img {
+  0% {
+    transform: scale(1);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(231, 76, 60, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(231, 76, 60, 0);
+  }
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-4px);
+}
+
+input::placeholder {
+  color: #c2c2c2;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.swal2-popup {
+  font-family: "Roboto";
+}
