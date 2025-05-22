@@ -77,6 +77,7 @@ button {
   animation: pulsar 2.2s infinite;
   border: none;
 }
+/* ----------------------------------------------------------------------- */
 
 @keyframes pulsar {
   0% {
@@ -128,4 +129,44 @@ input::-webkit-inner-spin-button {
 
 .swal2-popup {
   font-family: "Roboto";
+}
+
+/* ------------------------------------------------------------------------ */
+
+@media screen and (max-width: 830px) {
+  * {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 76px;
+    margin-bottom: 126px;
+    width: 300px;
+    animation: pulsar-img 5.5s infinite;
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-min,
+  .input-max {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 302px;
+    height: 44px;
+  }
+  .container-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100px;
+  }
 }
