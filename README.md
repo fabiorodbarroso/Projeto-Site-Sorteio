@@ -16,4 +16,4 @@
 <br>
 <p align="center"><i><b>Captura de tela do Projeto concluído:</i></b>
   <br>
-<img src="https://github.com/fabiorodbarroso/Projeto-Site-Sorteio/assets/demonstracaoprojetosorteio.png">
+<img src="https://github.com/fabiorodbarroso/Projeto-Site-Sorteio/blob/40b92a51dc1de0138898d1fa287e4a020c03081f/assets/demonstracaoprojetosorteio.png">
